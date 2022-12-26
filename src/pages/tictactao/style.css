@@ -1,0 +1,43 @@
+.tictoctoe-game-grid {
+  border-radius: 5px;
+  /* box-shadow: 4px 4px 8px -3px #727272; */
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.row-1 {
+  height: 33.3%;
+}
+.row-2 {
+  height: 33.3%;
+}
+.row-3 {
+  height: 33.3%;
+}
+.tac-box {
+  width: 33.3%;
+  /* border: 0.1em solid #cdcdcd; */
+  height: 100%;
+}
+.tac-box-last {
+  width: 34.3%;
+  /* border: 0.1em solid #cdcdcd; */
+  height: 100%;
+}
+
+.tictoctoe-game-grid {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("../../assets/images/tictactoe-grid.png");
+  background-size: contain;
+}
+
+.tictoctoe-game-main-container {
+  height: 100vh;
+  background-image: url("../../assets/images/tictactoe-game-bg.jpg");
+  background-size: contain;
+}
